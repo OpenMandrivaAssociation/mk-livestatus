@@ -1,6 +1,7 @@
 %define name	mk-livestatus
-%define version 1.1.2
+%define version 1.1.6p1
 %define release	%mkrel 1
+%define _disable_ld_no_undefined 1
 
 Name:		%{name}
 Version:	%{version}
