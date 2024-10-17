@@ -9,7 +9,7 @@ Release:	%{release}
 Summary:	Nagios Event Broker Module
 Group:		System/Servers
 License:	BSD
-URL:		http://mathias-kettner.de/checkmk_livestatus.html
+URL:		https://mathias-kettner.de/checkmk_livestatus.html
 Source0:    http://www.mathias-kettner.de/download/mk-livestatus-%{version}.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
