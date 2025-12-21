@@ -13,6 +13,11 @@ URL:		https://mathias-kettner.de/checkmk_livestatus.html
 Source0:    http://www.mathias-kettner.de/download/mk-livestatus-%{version}.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 MKLivestatus is a brand new Nagios Event Broker (NEB) Module which can be used
 to extend the core of Nagios. The MKLivestatus module provides access to the
